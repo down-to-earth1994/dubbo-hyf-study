@@ -7,13 +7,18 @@
     <groupId>com.hyf</groupId>
     <artifactId>firstproviderdubbo</artifactId>
     <version>1.0-SNAPSHOT</version>
-    
+
     <dependencies>
-    <dependency>
-        <groupId>org.projectlombok</groupId>
-        <artifactId>lombok</artifactId>
-        <version>1.16.20</version>
-        <scope>provided</scope>
-    </dependency>
-</dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.20</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.hyf</groupId>
+            <artifactId>bean_api_throw</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

@@ -1,4 +1,7 @@
 package com.hyf;
+
+import com.hyf.pojo.User;
+
 /**
  * @Author heyanfeng
  * @Contact
@@ -7,6 +10,9 @@ package com.hyf;
  */
 public class ProviderStartMain {
     public static void main(String[] args) {
-        System.out.println("args = [" + args + "]");
+        User user = new User();
+        user.setUuid(1L);
+        user.setName("hyf");
+        System.out.println(user.toString());
     }
 }
